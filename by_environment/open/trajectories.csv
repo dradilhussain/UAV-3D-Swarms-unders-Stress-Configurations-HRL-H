@@ -1,0 +1,9 @@
+policy,environment,scenario,obstacles_enabled,n_obstacles,tasks_completed,tasks_total,coverage_pct,n_stranded,mean_final_soc,steps_taken,blocked_moves
+random,open,volume,False,0,1,8,12.5,8,0,226,0
+greedy,open,volume,False,0,8,8,100,0,0.80095732,43,0
+cbba,open,volume,False,0,8,8,100,0,0.80284274,43,0
+mappo,open,volume,False,0,8,8,100,0,0.76395273,50,0
+maddpg,open,volume,False,0,8,8,100,0,0.6427716,76,0
+qmix,open,volume,False,0,8,8,100,0,0.64210057,77,0
+dmpc,open,volume,False,0,8,8,100,0,0.89088941,31,0
+hrlh,open,volume,False,0,8,8,100,0,0.83168912,51,0

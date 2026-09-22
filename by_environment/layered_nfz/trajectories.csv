@@ -1,0 +1,9 @@
+policy,environment,scenario,obstacles_enabled,n_obstacles,tasks_completed,tasks_total,coverage_pct,n_stranded,mean_final_soc,steps_taken,blocked_moves
+random,layered_nfz,layered,True,4,0,8,0,8,0,226,34
+greedy,layered_nfz,layered,True,4,8,8,100,0,0.72484189,59,66
+cbba,layered_nfz,layered,True,4,8,8,100,0,0.72782063,60,74
+mappo,layered_nfz,layered,True,4,8,8,100,0,0.58901334,87,128
+maddpg,layered_nfz,layered,True,4,8,8,100,0,0.32750767,142,39
+qmix,layered_nfz,layered,True,4,8,8,100,0,0.1401215,181,112
+dmpc,layered_nfz,layered,True,4,8,8,100,0,0.87993538,36,22
+hrlh,layered_nfz,layered,True,4,8,8,100,0,0.87462139,35,5
