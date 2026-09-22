@@ -1,9 +1,0 @@
-policy,environment,scenario,obstacles_enabled,n_obstacles,tasks_completed,tasks_total,coverage_pct,n_stranded,mean_final_soc,steps_taken,blocked_moves
-random,layered,layered,False,0,0,8,0,8,0,226,0
-greedy,layered,layered,False,0,8,8,100,0,0.82342875,38,0
-cbba,layered,layered,False,0,8,8,100,0,0.82342875,38,0
-mappo,layered,layered,False,0,8,8,100,0,0.066797219,196,0
-maddpg,layered,layered,False,0,8,8,100,0,0.31312793,145,0
-qmix,layered,layered,False,0,8,8,100,0,0.46572357,112,0
-dmpc,layered,layered,False,0,8,8,100,0,0.87393534,36,0
-hrlh,layered,layered,False,0,8,8,100,0,0.82568192,51,0
