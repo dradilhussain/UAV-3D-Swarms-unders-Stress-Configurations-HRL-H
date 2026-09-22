@@ -2,7 +2,6 @@
 
 Decentralized, SOC-aware UAV swarm coordination in a **3D** environment
 ((x, y, z) positions with an altitude/climb-power energy model), comparing
-**eight** coordination approaches on the same metrics as the 2D project:
 
 * **Random** -- uniformly random valid action (sanity floor)
 * **Greedy-Nearest** -- always heads to the nearest active task, ignores battery until critical
@@ -105,24 +104,11 @@ Layout rule: **4 panels -> 2x2**, **5 or 6 panels -> 3x2**, **8 trajectories -> 
 One trajectory, comparison, extended-metrics, and HRL-H ablation figure **per
 environment**. Scenario comparison includes all four environments.
 
-| Figure | Contents |
-|---|---|
-| `figures/stress_env_snapshot_2x2.png` | 2x2 environment plot (open / layered / open+NFZ / layered+NFZ) |
-| `figures/stress_env_snapshot_<id>.png` | Individual environment snapshots |
-| `figures/stress_trajectories_<id>.png` | 4x2 trajectory grids (all 8 approaches), one env each |
-| `figures/stress_comparison_summary_<id>.png` | Base-config bars, one env each |
-| `figures/stress_extended_metrics_<id>.png` | Extended metrics (3x2), one env each |
-| `figures/stress_hrlh_ablation_comparison_<id>.png` | HRL-H vs HRL-H-NAV vs HRL-H-QMIX, one env each |
-| `figures/stress_scenario_comparison.png` | All 4 environments x coverage / stranded / reward |
-
 Environment layouts are also stored as JSON in `outputs/env_snapshots/` so the
 2x2 figure can be re-plotted later without re-running the simulator.
 
-Rebuild figures and CSV tables from already-saved JSON (no training / eval):
+Rebuilt figures and CSV tables from already-saved JSON (no training / eval):
 
-```
-python code/env_3d/replot_from_outputs.py
-```
 
 ## Comparison tables
 
